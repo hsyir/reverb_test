@@ -42,12 +42,12 @@ window.Echo.channel('chat').listen('.message.sent', (e) => {
     console.log('پیام جدید:', e.message);
 
     // اضافه کردن به صفحه
-    const messages = document.getElementById('messages');
-    if (messages) {
-        const li = document.createElement('li');
-        li.textContent = e.message;
-        messages.appendChild(li);
-    }
+    // const messages = document.getElementById('msgInput');
+    // if (messages) {
+    //     const li = document.createElement('li');
+    //     li.textContent = e.message;
+    //     messages.appendChild(li);
+    // }
 });
 
 
